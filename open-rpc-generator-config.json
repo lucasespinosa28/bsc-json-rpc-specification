@@ -1,0 +1,16 @@
+{
+    "openrpcDocument": "openrpc.json",
+    "outDir": "build",
+    "components": [
+        {
+            "type": "client",
+            "name": "bsc-openrpc",
+            "language": "typescript"
+        },
+        {
+            "type": "docs",
+            "name": "bsc-openrpc",
+            "language": "gatsby"
+        }
+    ]
+}
