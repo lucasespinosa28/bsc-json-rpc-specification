@@ -1436,7 +1436,6 @@
 			  "$ref": "#/components/schemas/Transaction"
 			}
 		  },
-	
 		  "TransactionResult": {
 			"name": "transactionResult",
 			"description": "Returns a transaction or null",
@@ -1565,5 +1564,5 @@
 			}
 		  }
 		}
+	  }
 	}
-}
