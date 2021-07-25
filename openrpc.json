@@ -800,7 +800,7 @@
 			"result": {
 			  "$ref": "#/components/contentDescriptors/Logs"
 			}
-		  },
+		  }
 	],
 	"components": {
 		"schemas": {
