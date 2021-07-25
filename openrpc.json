@@ -172,9 +172,11 @@
 			"result": {
 				"name": "Syncing status",
 				"schema": {
-					"$ref": "#/components/schemas/SyncingStatus"
+					"title": "SyncingStatus",
+					"type": "boolean"
 				}
 			}
+			
 		},
 		{
 			"name": "eth_coinbase",
