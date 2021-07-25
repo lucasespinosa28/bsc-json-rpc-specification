@@ -827,6 +827,12 @@
 	],
 	"components": {
 		"schemas": {
+			"Keccak": {
+				"title": "keccak",
+				"type": "string",
+				"description": "Hex representation of a Keccak 256 hash",
+				"pattern": "^0x[a-fA-F\\d]{64}$"
+			  },
 			"address": {
 				"title": "hex encoded address",
 				"type": "string",
