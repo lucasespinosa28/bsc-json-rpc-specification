@@ -405,13 +405,13 @@
 		},
 		{
 			"name": "eth_signTransaction",
-			"summary": "Returns an RLP encoded transaction signed by the specified account.",
+			"summary": "Signs a transaction that can be submitted to the network at a later time using with eth_sendRawTransaction.",
 			"params": [
 				{
 					"name": "Transaction",
 					"required": true,
 					"schema": {
-						"$ref": "#/components/schemas/TransactionWithSender"
+						"$ref": "#/components/schemas/SignTransaction"
 					}
 				}
 			],
@@ -1306,6 +1306,44 @@
 				"title": "transactionSigS",
 				"type": "string",
 				"description": "ECDSA signature s"
+			  }
+			}
+		  },
+		  "SignTransaction": {
+			"title": "signTransaction",
+			"type": "object",
+			"required": [
+			  "data",
+			  "from",
+			  "gas",
+			  "gasPrice",
+			  "to",
+			  "value"
+			],
+			"properties": {
+			  "data": {
+				"type":"string"
+			  },
+			  "from": {
+				"$ref": "#/components/schemas/From"
+			  },
+			  "gas": {
+				"title": "transactionGas",
+				"type": "string",
+				"description": "The gas limit provided by the sender in Wei"
+			  },
+			  "gasPrice": {
+				"title": "transactionGasPrice",
+				"type": "string",
+				"description": "The gas price willing to be paid by the sender in Wei"
+			  },
+			  "to": {
+				"$ref": "#/components/schemas/To"
+			  },
+			  "value": {
+				"title": "transactionValue",
+				"description": "Value of Ether being transferred in Wei",
+				"$ref": "#/components/schemas/Keccak"
 			  }
 			}
 		  },
