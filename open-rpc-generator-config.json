@@ -1,15 +1,20 @@
 {
     "openrpcDocument": "openrpc.json",
-    "outDir": "build",
+    "outDir": "./",
     "components": [
         {
             "type": "client",
-            "name": "bsc-openrpc",
+            "name": "bsc-json-rpc",
             "language": "typescript"
         },
         {
+            "type": "client",
+            "name": "bsc-json-rpc",
+            "language": "rust"
+        },
+        {
             "type": "docs",
-            "name": "bsc-openrpc",
+            "name": "bsc-json-rpc-specification-website",
             "language": "gatsby"
         }
     ]
