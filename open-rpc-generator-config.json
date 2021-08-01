@@ -14,7 +14,7 @@
         },
         {
             "type": "docs",
-            "name": "bsc-json-rpc-specification-website",
+            "name": "bsc-json-rpc-specification",
             "language": "gatsby"
         }
     ]
