@@ -1,6 +1,6 @@
 
 module.exports = {
-  pathPrefix: "/bsc-json-rpc-specification-website",
+  pathPrefix: "/bsc-json-rpc-specification/",
   siteMetadata: {
     title: 'Binance Smart Chain JSON-RPC Specification',
     description: 'A specification of the standard interface for Binance Smart Chain clients.',
