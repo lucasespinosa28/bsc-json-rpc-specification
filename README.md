@@ -8,14 +8,6 @@
 
 This repository is the home of the Binance Smart Chain [OpenRPC](https://spec.open-rpc.org) document that describes the JSON-RPC interface to be implemented by client developers. It contains the tooling and scripts to automate producing artifacts for consuming the JSON-RPC API (docs, clients, etc).
 
-## Introduction
-
-Both Binance Smart Chain client developers and downstream dapp developers lack a formal Binance Smart Chain RPC specification. This proposal attempts to standardize such a specification in a way that's versionable, human-readable and machine-readable. It will improve the accuracy of documentation, API, and clients.
-
-Binance Smart Chain clients can expose RPC endpoints with differing method signatures; this forces applications to work around method inconsistencies to maintain compatibility with various Binance Smart Chain RPC implementations.
-
-Much of Binance Smart Chain effectiveness as an enterprise-grade application platform depends on its ability to provide a reliable and predictable developer experience.
-
 ## Specification
 
 You can view the specification in documentation form [here]https://lucasespinosa28.github.io/bsc-json-rpc-specification/api-documentation/) or the raw **OpenRPC Document** [here](openrpc.json).
