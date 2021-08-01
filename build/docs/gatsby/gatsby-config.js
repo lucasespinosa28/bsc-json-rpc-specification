@@ -16,7 +16,7 @@ module.exports = {
       },
       {
         name: 'API Documentation',
-        link: '/bsc-json-rpc-specification/api-documentation'
+        link: '/api-documentation'
       }
     ],
     footerLinks: [
@@ -34,7 +34,7 @@ module.exports = {
         name: 'pristine-site',
         short_name: 'pristine-site',
         start_url: '/api-documentation/',
-        background_color: 'transparent',
+        background_color: 'tranesparent',
         theme_color: '#3f51b5',
         display: 'minimal-ui',
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
