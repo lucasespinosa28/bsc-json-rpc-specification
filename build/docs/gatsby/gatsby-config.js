@@ -1,13 +1,13 @@
 
 module.exports = {
-  pathPrefix: "",
+  pathPrefix: "/bsc-json-rpc-specification-website",
   siteMetadata: {
     title: 'Binance Smart Chain JSON-RPC Specification',
     description: 'A specification of the standard interface for Binance Smart Chain clients.',
     logoUrl: 'https://raw.githubusercontent.com/open-rpc/design/master/icons/open-rpc-logo-noText/open-rpc-logo-noText%20(PNG)/256x256.png',
     primaryColor: '#3f51b5', //material-ui primary color
     secondaryColor: '#f50057', //material-ui secondary color
-    author: '',
+    author: 'lucas espinosa',
     menuLinks: [
       {
         name: 'home',
@@ -16,7 +16,7 @@ module.exports = {
       },
       {
         name: 'API Documentation',
-        link: '/api-documentation'
+        link: '/bsc-json-rpc-specification/api-documentation'
       }
     ],
     footerLinks: [
