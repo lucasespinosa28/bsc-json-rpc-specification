@@ -410,7 +410,32 @@
           ],
           "result": {
             "name": "getBlockByHashExampleResult",
-            "value": "test"
+            "value": {
+              "difficulty": "0x2",
+              "extraData": "0xd883010100846765746888676f312e31352e35856c696e7578000000fc3ca6b70132629940e35cef1e1a29ec3284e059611adf3ada7bc9e94439b3f01463d14e5c28747682efa945305f8f8b5d9b4a048ddc7fd6b5b6935853091b99cf209be201",
+              "gasLimit": "0x510ff40",
+              "gasUsed": "0x509865d",
+              "hash": "0x2b8ec4b3d32ad9349d7a9f86d0c3dc4e9b0286af81056c54bb2e4fc72c7a4d55",
+              "logsBloom": "0xd7f7977dfbf7f7fefd7fef37fe68e9fe4b3b3ffbef5fecf3e7fffdffff66e7456fbf7effd4f19fbb8dfbfefd5faefe8a79dccfbefe1fd53efffaee5ff9fdf5feacbb5dd7e7ddfcebf140bddaff1b7bfdf65ff7fb53f679ebf7eefefa9ff5feff77eff9ffbef3ef7dd5ffeade94ff7bfdedd79f7fdffffffff5ffdfbffbbebf7bffc5f9b5b7ffbfe77fdfdfdc3fdf7abfffffbee57bfff7ffff6fdefecde9fbfbff3f5bef4deffbebff6fafdcfb7fefbcff35fe77f5ff7bbf9f5f9b61ee3efcfefbbf6effe17bffd79f7ffea3ffdb9f7b7d9fd77fbc9cbd7fdffbebcbed5ffdfffff6fffffddf7fbbfbfbffbfbffffbfddff65efbeffff779effff56fedffd9cf",
+              "miner": "0x70f657164e5b75689b64b7fd1fa275f334f28e18",
+              "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "nonce": "0x0000000000000000",
+              "number": "0x924403",
+              "parentHash": "0x1c4bc901b58c3b697253e8c71a966c00082e2b32bc3ca79e0d2c845bc7f74e68",
+              "receiptsRoot": "0x66691b3326db9ef08513d10e47d1c74533a57ea581de57a3bfcd9bd515361e1f",
+              "sha3Uncles": "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+              "size": "0x1cee6",
+              "stateRoot": "0xa9a58e53a92d902740d7e3f034af691bc65604be74a6e6bad061cf47d0b35459",
+              "timestamp": "0x61032ac8",
+              "totalDifficulty": "0x1235827",
+              "transactionsRoot": "0x26a2ef21d1ea3824d087096ceefd2e55e1c0ba50df6ab5ceeabaafb2aca2cf2b",
+              "transactions": [
+                "0xc0bc09e74989de4f8b788b5216fb971af7f58fba6162bc4d619f790978431366",
+                "0x862af3a8ba74264e2db47d27850d1b87de06538244e07d6b15e50c8a60538370",
+                "0xdd5cee575ced914c87fcd467a79a98199d11c2a6a53804c937bbc32fca4f8513"
+              ],
+              "uncles": []
+            }
           }
         }
       ]
