@@ -2,7 +2,7 @@
  
 # Binance-Smart-Chain-json-rpc-specification
 
-[View the Documentation]https://lucasespinosa28.github.io/bsc-json-rpc-specification/api-documentation/).
+[View the Documentation](https://lucasespinosa28.github.io/bsc-json-rpc-specification/api-documentation/).
 
 ## Overview
 
