@@ -30,7 +30,7 @@
     "gatsby-remark-mermaid": "^3.0.0",
     "gatsby-source-filesystem": "^4.21.0",
     "gatsby-transformer-mdx": "^1.1.3",
-    "gatsby-transformer-remark": "^6.0.0",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^4.8.0",
     "loader-utils": "2.0.4",
     "lodash": "^4.17.15",
